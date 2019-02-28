@@ -1,0 +1,20 @@
+@import '~swiper/dist/css/swiper.css';
+
+.swiper-container-customers{
+    position: relative;
+}
+.swiper-pagination-bullet-active{
+    background: #6af0ff;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .swipper-nav{
+        display: none;
+    }
+    .slides{
+      grid-column-start: 1;
+      grid-column-end: 7;
+    }
+}
